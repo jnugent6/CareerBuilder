@@ -46,7 +46,7 @@ namespace ITServices.Framework.Data
 
         protected virtual void Dispose(bool disposing)
         {
-            if (!disposed)
+            if (disposed == false)
             {
                 if (disposing)
                 {
